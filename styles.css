@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+}
+
+.facebook-left {
+    max-width: 50%;
+}
+
+.facebook-left h1 {
+    font-size: 60px;
+    color: #1877f2;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+}
+
+.facebook-left p {
+    font-size: 24px;
+    color: #606770;
+    margin-top: 10px;
+}
+
+.login-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-form button:hover {
+    background-color: #165acb;
+}
+
+.login-form a {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.create-account {
+    background-color: #42b72a;
+    margin-top: 20px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
